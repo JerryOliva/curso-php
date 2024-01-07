@@ -1,6 +1,4 @@
-<?php
-
-      
+<?php 
    if(isset($_POST["enviar"]))
    {
         $num=$_POST['v1'];
@@ -29,6 +27,15 @@
             echo " La división es:". ($num/$num2);
         }
         
+        if(!strcmp("incremento",$operaciones))
+        {
+            echo " El incremento solo se realiza en una sola variable";
+        }
+
+        if(!strcmp("decremento",$operaciones))
+        {
+            echo " El decremento solo se realiza en una sola variable";
+        }
    }
 
        
