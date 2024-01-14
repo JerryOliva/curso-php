@@ -1,0 +1,2 @@
+concern that focus can be blocked by negative entities.
+raise your range and you´ll be safe
